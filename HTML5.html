@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            body {
+            background-image: url('15.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+          }
+        </style>
+    </head>
+    
+    <body> 
+    
+    <table border="0" width="100%" height="700px">
+    
+    <tr>
+    <th> <a href="#"> about </a> </th>
+    <th><a href="#"> admin </a></th>
+    <th> <a href="#"> doner </a></th>
+    <th> <a href="#"> create account </a></th>
+    </tr>
+    
+    
+    <tr>
+    <th colspan="6">
+    <font color="black" face="Helvetica" size="5">
+    <h1> THE HELP </h1> <br>
+    <h2> we are here to help connct </h2>
+    </font>
+    </th>
+    </tr>
+
+    <tr>
+        <th colspan="0">
+        <img src="3.jpg" alt="Workplace" usemap="#workmap" height="200px" width="200px">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  
+</map>
+<p>component1</p>
+</th>
+    </tr>
+
+    <tr>
+        <th colspan="0">
+        <img src="3.jpg" alt="Workplace" usemap="#workmap" height="200px" width="200px">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  
+</map>
+<p>component2</p>
+</th>
+    </tr>
+
+    <tr>
+
+        <th colspan="12">
+            <form>
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname" value="enter name"><br>
+                <label for="lname">Registration id:</label><br>
+                <input type="text" id="lname" name="lname" value="if not create account"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </th>
+    </tr>
+    
+    <tr>
+    <th colspan="6">
+    <font size="5" color="orange" face="Aquire"> doante today </font>
+    
+    </th>
+    </tr>
+    
+    
+    
+    
+    <tr>
+    <th colspan="6">
+    <font color="black" > KNOW ABOUT THE NGO</font>
+    </th>
+    </tr>
+    
+    
+ 
+    
+    </table>
+    <p>OUR SERVICES</p>
+    <ul>
+        <li>Eradication of Poverty.</li>
+        <li>Promote Education.</li>
+        <li>Protection of Environment.</li>
+        <li>Environment Conservation.</li>
+        <li>Wildlife Conservation.</li>
+        <li>Awareness about human rights.</li>
+        <li>Providing Health and Nutrition.</li>
+        <li>Providing Food and Shelter.</li>
+        
+        
+
+      </ul>
+      <p>OUR MOTTO</p>
+      <ol>
+        <li>Analysis and assessment of needs</li>
+        <li>Developing programmes and strategies for development</li>
+        <li>Empowering and developing local communities</li>
+        <li>Care policies development and more</li>
+      </ol>
+
+      <P>OUR CORE VALUES</P>
+
+
+      <dl>
+        <dt>Integrity</dt>
+        <dd>-We show impartiality, fairness and honesty while upholding the highest ethical standards. We seek to remain accountable and transparent in all our dealings as we deliver services to stakeholders.</dd>
+        <dt>Professionalism</dt>
+        <dd>-We provide quality services that exceed expectations of stakeholders at all times. As accountable public servants, we exemplify the highest standards of excellence in the work environment</dd>
+        <dt>Team work</dt>
+        <dd>-We contribute fully to activities of the Board to address shared challenges through common effort by sharing information and resources to create a workplace that fosters community and cooperation. We promote open communication and commitment in service delivery. </dd>
+        <dt>Quality service</dt>
+        <dd>-We strive to attain excellence in service delivery by truly understanding our stakeholder’s expectations and implementing the right guidelines and service standards. </dd>
+        <dt>Diversity and inclusivity</dt>
+        <dd>-We understand, accept and value differences between people including race, ethnicity, gender, age, religion and disability. We are collaborative, supportive and respect environment that increases participation and contribution of all stakeholders </dd>
+      </dl>
+
+      <video width="320" height="240" autoplay muted>
+        <source src="video1.mp4" type="video/mp4">
+        
+        Your browser does not support the video tag.
+      </video>
+
+      <br><br><br><br><br>
+
+
+
+      <audio controls>
+        <source src="audio1.ogg.mp3" type="audio/ogg">
+      Your browser does not support the audio element.
+      </audio>
+
+
+      <br><br><br><br><br>
+
+
+      <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        Your browser does not support the HTML canvas tag.
+        </canvas>
+        
+
+        <p>to view the current location</p>
+
+<button onclick="getLocation()">location</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+      
+      
+    
+    
+    
+        
+    </body>
+    </html>
